@@ -1,0 +1,33 @@
+{
+  "name": "mqtt-js-example",
+  "version": "1.0.0",
+  "description": "example client using mqtt.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edritech93/mqtt-js-example.git"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "yudiedrialviska@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edritech93/mqtt-js-example/issues"
+  },
+  "homepage": "https://github.com/edritech93/mqtt-js-example#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  },
+  "devDependencies": {
+    "eslint": ">=8.24.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}
